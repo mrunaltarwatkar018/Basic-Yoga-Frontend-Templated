@@ -1,0 +1,263 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: right;
+    background: rgb(236, 231, 231);
+    color: black;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: rgb(60, 134, 125);
+    color: rgb(255, 255, 255);
+}
+
+.menus-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(60, 134, 125);
+    background-image: url("bg.jpg");
+    opacity: 0.55;
+}
+
+.offers-section {
+    height: 100%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.gallery-section {
+    height: 100%;
+    text-align: left;
+    background-color: rgb(236, 231, 231);
+    padding: 50px 150px;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    background: rgb(60, 134, 125);
+    padding: 50px 150px;
+}
+
+.blog-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: url(bg.jpg);
+    color: rgb(60, 134, 125);
+    padding: 100px 60px 60px 50px;
+    opacity: 0.55;
+}
+
+.last-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(60, 134, 125);
+}
+
+.bt {
+    background-color: rgb(60, 134, 125);
+    padding: 10px 20px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.topnav {
+    background-color: rgb(60, 134, 125);
+    padding: 0px 120px;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(60, 134, 125);
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer {
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(60, 134, 125);
+    background-color: rgb(236, 231, 231);
+    position: relative;
+    top: 150px;
+    padding-top: 50px;
+    padding-bottom: 73px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.b {
+    color: rgb(60, 134, 125);
+    font-style: 'Open Sans', sans-serif, bold;
+}
+
+.col-sm-6 {
+    padding-top: 70px;
+}
+
+.fa {
+    border-radius: 50%;
+    border: 0.5px solid rgb(60, 134, 125);
+    padding: 10px;
+    text-align: center;
+    margin: 2px 2px;
+    background-color: rgb(60, 134, 125);
+    color: rgb(255, 254, 254);
+}
+
+.sp {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.at {
+    position: relative;
+    left: 280px;
+    height: 400px;
+}
+
+.pl {
+    position: relative;
+    left: -450px;
+    height: 410px;
+}
+
+.r {
+    position: relative;
+    left: 400px;
+    height: 200px;
+    width: 200px;
+}
+
+.round {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: url(a.png);
+}
+
+.of {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(60, 134, 125);
+    float: left;
+    padding: 40px 40px;
+    padding-top: 200px;
+}
+
+.fe {
+    width: 50%;
+    height: 100%;
+    background: url(a.jpg);
+    float: right;
+}
+
+#more {
+    display: none;
+}
+
+.card-block {
+    padding: 20px 20px;
+}
+
+textarea {
+    border-radius: 25px;
+    align-content: center;
+    width: 400px;
+}
+
+.btt {
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    background-color: rgb(255, 254, 254);
+    color: rgb(60, 134, 125);
+    border: none;
+    align-content: center;
+    position: relative;
+    right: 20px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(60, 134, 125);
+    padding-top: 30px;
+    background: transparent;
+    border: 2px solid rgb(60, 134, 125);
+}
+
+.borderimage {
+    border: 20px solid green;
+    border-image-source: linear-gradient(lightgreen, darkgreen);
+    border-image-slice: 20;
+    padding: 2em;
+}
